@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="whitelife.win.cleanedittext.MainActivity">
+    android:orientation="vertical"
+    android:layout_height="match_parent">
 
     <whitelife.win.cleanedittextlibrary.CleanEditText
-        android:id="@+id/et"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
         android:textColor="@color/colorPrimary"
         app:focusIcon="@drawable/user_focus"
         app:cursor="@drawable/cursor"
@@ -27,6 +24,12 @@
         app:deleteIconHeight="20dp"
         app:dividerColor="@color/colorPrimaryDark"
         app:focusDividerColor="#009988"
-        app:dividerBonds="3dp"
+        app:dividerBonds="3dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
         />
-</android.support.constraint.ConstraintLayout>
+
+</LinearLayout>
