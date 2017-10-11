@@ -7,5 +7,5 @@
 /build
 /captures
 .externalNativeBuild
-/library/bintray_build.gradle
+/cleanedittextlibrary/bintray_build.gradle
 
