@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="whitelife.win.cleanedittext.MainActivity">
+
+    <whitelife.win.cleanedittextlibrary.CleanEditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/colorPrimary"
+        app:focusIcon="@drawable/user_focus"
+        app:cursor="@drawable/cursor"
+        app:icon="@drawable/user"
+        android:gravity="center_vertical"
+        app:deleteIcon="@drawable/delete"
+        app:focusTextColor="#aa44cc"
+        app:iconWidth="20dp"
+        app:iconHeight="20dp"
+        app:dividerMarginLeft="10dp"
+        app:dividerMarginRight="10dp"
+        app:deleteIconWidth="20dp"
+        android:drawablePadding="10dp"
+        app:deleteIconHeight="20dp"
+        app:dividerColor="@color/colorPrimaryDark"
+        app:focusDividerColor="#009988"
+        app:dividerBonds="3dp"
+        />
+</android.support.constraint.ConstraintLayout>
